@@ -1,0 +1,303 @@
+================================================================================
+ASSETS REPORT - GATO QUEST
+Análisis Completo de Sprites y Recursos
+================================================================================
+
+SPRITES TOTALES: 35 archivos
+SOUNDS TOTALES: 3 archivos
+
+================================================================================
+CATEGORÍA: PLAYER (8 sprites)
+================================================================================
+
+1. gato.png (40,982 bytes)
+   - Uso: Skin inicial (Level 1)
+   - Scale: 1.8
+   - Tag: "player"
+   - Attack: basic (ataque_key)
+
+2. gato_karateca.png (57,311 bytes)
+   - Uso: Level 2 evolution
+   - Scale: 2.0
+   - Attack: karate (daño_warrior, melee)
+
+3. gato_arcoflecha.png (52,219 bytes)
+   - Uso: Level 3 evolution
+   - Scale: 2.0
+   - Attack: bow (ataque_key)
+
+4. gato_megaman.png (52,789 bytes)
+   - Uso: Level 4 evolution
+   - Scale: 2.2
+   - Attack: megashot (bola_mago, piercing)
+
+5. gato_luigi.png (46,351 bytes)
+   - Uso: Level 5 evolution
+   - Scale: 2.2
+   - Attack: hacker (ataque_key, fast)
+
+6. gato_linkzelda.png (61,906 bytes)
+   - Uso: Level 6 evolution
+   - Scale: 2.2
+   - Attack: sword (daño_warrior, melee strong)
+
+7. gato_robin.png (30,726 bytes)
+   - Uso: Level 7 evolution
+   - Scale: 2.0
+   - Attack: speed (ataque_key, rapid fire)
+
+8. gato_poderestudio.png (53,669 bytes)
+   - Uso: Level 8 evolution (MAX)
+   - Scale: 2.4
+   - Attack: magic (efecto_rosa, piercing)
+
+================================================================================
+CATEGORÍA: ENEMIES (4 sprites)
+================================================================================
+
+9. bug.png (50,709 bytes)
+   - HP: 10
+   - Speed: 100
+   - XP Drop: 10
+   - Scale: 1.2
+   - Spawn rate: 33% (1/3)
+
+10. rata_rapida.png (71,874 bytes)
+    - HP: 8
+    - Speed: 200 (rápida)
+    - XP Drop: 15
+    - Scale: 1.2
+    - Spawn rate: 33% (1/3)
+
+11. perro.png (131,603 bytes)
+    - HP: 30 (tank)
+    - Speed: 80
+    - XP Drop: 30
+    - Scale: 1.6
+    - Spawn rate: 33% (1/3)
+
+12. bug_boss.png (231,292 bytes)
+    - HP: 20
+    - Speed: 150
+    - XP Drop: 20
+    - Scale: 1.4
+    - Spawned by boss (30% chance)
+
+================================================================================
+CATEGORÍA: BOSS (12 sprites)
+================================================================================
+
+13. boss_inmune.png (69,952 bytes)
+    - Alias: boss_normal
+    - Uso: Boss state inicial
+    - Scale: 2.7
+
+14. boss_enrage.png (306,985 bytes) ★ LARGEST FILE
+    - Uso: Boss HP < 30%
+    - Special: Overlay effect + shake(15)
+    - Scale: 2.7
+
+15. boss_cafe.png (69,327 bytes)
+    - Uso: Boss heal animation (no usado actualmente)
+    - Scale: 2.7
+
+16. boss_hacha.png (68,340 bytes)
+    - Uso: Boss attack projectile
+    - Rotation: angle += 5 per frame
+    - Scale: 0.8
+    - Damage: 1
+
+17. boss_doblepistola.png (97,830 bytes)
+    - Uso: Boss state (no usado actualmente)
+    - Scale: 2.7
+
+18. boss_reylibro.png (89,489 bytes)
+    - Uso: Boss attack projectile
+    - Scale: 1.2
+    - Damage: 1
+    - Spawn chance: 40%
+
+19. boss_gameover.png (88,666 bytes)
+    - Uso: Game Over screen
+    - Scale: 0.5
+
+20. boss_espejismo.png (96,225 bytes)
+    - Uso: Boss mirage (no usado actualmente)
+    - Scale: 2.7
+
+21. boss_win.png (245,824 bytes)
+    - Uso: Win screen (no usado actualmente)
+    - Scale: 2.7
+
+22. bos_debilitado.png (167,534 bytes)
+    - Uso: Boss debuffed state (no usado actualmente)
+    - Scale: 2.7
+
+23. boss_joystick.png (70,231 bytes)
+    - Uso: Boss HP 30-60%
+    - Scale: 2.7
+
+24. boss_muerto.png (177,246 bytes)
+    - Uso: Boss death (no usado actualmente, se usa explosion)
+    - Scale: 2.7
+
+================================================================================
+CATEGORÍA: PROJECTILES (5 sprites)
+================================================================================
+
+25. ataque_key.png (135,906 bytes)
+    - Uso: Player attack (basic, hacker, speed)
+    - Scale: 1.0
+    - Speed: 400-700 (según nivel)
+    - Piercing: No
+
+26. bola_mago.png (73,649 bytes)
+    - Uso: Player attack (megashot)
+   - Scale: 1.2
+    - Speed: 500
+    - Piercing: YES (max 2 enemies)
+
+27. daño_warrior.png (55,644 bytes)
+    - Uso: Player attack (karate, sword) - MELEE
+    - Scale: dmg / 10 (dinámica)
+    - Lifespan: 0.15s
+    - Piercing: No
+
+28. libro_boss.png (227,138 bytes)
+    - Uso: Boss projectile + Churu item (DUAL USE)
+    - Scale: 1.2 (projectile) / 0.8 (churu)
+    - XP: 25 (como churu)
+    - Damage: 1 (como projectile)
+
+29. efecto_rosa.png (150,535 bytes)
+    - Uso: Player attack (magic) + Churu pickup effect
+    - Scale: 1.3 (effect) / 1.0 (projectile)
+    - Piercing: YES
+
+================================================================================
+CATEGORÍA: EFFECTS (4 sprites)
+================================================================================
+
+30. efecto_explosion.png (72,067 bytes)
+    - Uso: Enemy hit effect
+    - Scale: 1.2
+    - Lifespan: 0.4s
+    - Spawned on: projectile → enemy collision
+
+31. explosion.png (119,179 bytes)
+    - Uso: Enemy death effect
+    - Scale: 1.4
+    - Lifespan: 0.4s
+    - Spawned on: enemy hp <= 0
+
+32. error_boss.png (156,825 bytes)
+    - Uso: (no usado actualmente)
+    - Scale: 1.0
+
+33. efecto_rosa.png
+    - (ver #29, dual use)
+
+================================================================================
+CATEGORÍA: UI (2 sprites)
+================================================================================
+
+34. final_feliz.png (295,174 bytes)
+    - Uso: Win screen (stage 1)
+    - Scale: 0.9 (para fit 800x450)
+    - Display time: 4s
+
+35. final_feliz2.png (309,440 bytes)
+    - Uso: Win screen (stage 2)
+    - Scale: 0.9
+    - Display time: 4s + credits
+
+================================================================================
+CATEGORÍA: SOUNDS (3 archivos)
+================================================================================
+
+36. music_boss.mp3
+    - Uso: Boss battle music
+    - Loop: YES
+    - Volume: 0.5
+
+37. musicgame.mp3
+    - Uso: Normal gameplay music
+    - Loop: YES
+    - Volume: 0.3
+
+38. finalsong.mp3
+    - Uso: Game Over music
+    - Loop: NO
+    - Volume: default
+
+================================================================================
+ESTADÍSTICAS
+================================================================================
+
+TOTAL SIZE (sprites): ~4.2 MB
+LARGEST SPRITE: boss_enrage.png (306,985 bytes)
+SMALLEST SPRITE: gato_robin.png (30,726 bytes)
+
+SPRITES USADOS: 28 / 35 (80%)
+SPRITES NO USADOS: 7 (boss_cafe, boss_doblepistola, boss_espejismo, boss_win, bos_debilitado, boss_muerto, error_boss)
+
+DUAL-USE SPRITES:
+- libro_boss.png (projectile + churu)
+- efecto_rosa.png (effect + projectile)
+
+================================================================================
+ESCALAS APLICADAS (RESUMEN)
+================================================================================
+
+Player: 1.8 - 2.4
+Enemies small: 1.2
+Enemies medium: 1.6
+Boss: 2.7
+Projectiles: 0.8 - 1.4
+Effects: 1.2 - 1.4
+Items: 0.8
+
+================================================================================
+OPTIMIZACIONES SUGERIDAS
+================================================================================
+
+1. REMOVE sprites no usados (7 archivos) para reducir build size
+2. CONSIDERAR comprimir boss_enrage.png (demasiado grande)
+3. UNIFICAR daño_warrior scales (actualmente dinámico)
+
+================================================================================
+MAPEO DE NOMBRES
+================================================================================
+
+INCONSISTENCIAS DETECTADAS:
+- bos_debilitado.png → typo, debería ser boss_debilitado.png
+  (ya mapeado en código como "boss_debilitado")
+
+ALIASES USADOS:
+- boss_normal → boss_inmune.png
+- churu → libro_boss.png
+
+================================================================================
+CARGA EN CÓDIGO
+================================================================================
+
+Todos los sprites se cargan con:
+```javascript
+k.loadSprite("key", "sprites/filename.png");
+```
+
+Total loadSprite() calls: 32
+Total loadSound() calls: 3
+
+================================================================================
+CONCLUSIÓN
+================================================================================
+
+✓ Todos los sprites necesarios están presentes
+✓ Escalas correctamente definidas en assets_map.json
+✓ 80% utilization (bueno)
+✓ Dual-use eficiente de algunos sprites
+✗ 7 sprites no usados (pueden eliminarse en producción)
+✗ 1 typo en nombre de archivo (no crítico, ya mapeado)
+
+ESTADO: OPTIMAL

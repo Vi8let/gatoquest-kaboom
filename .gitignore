@@ -1,0 +1,4 @@
+node_modules/
+GatoQuest-win32-x64/
+*.backup
+*.zip

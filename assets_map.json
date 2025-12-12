@@ -1,0 +1,201 @@
+{
+    "player": {
+        "gato": {
+            "file": "sprites/gato.png",
+            "scale": 1.0,
+            "category": "player"
+        },
+        "gato_karateca": {
+            "file": "sprites/gato_karateca.png",
+            "scale": 1.1,
+            "category": "player"
+        },
+        "gato_arcoflecha": {
+            "file": "sprites/gato_arcoflecha.png",
+            "scale": 1.1,
+            "category": "player"
+        },
+        "gato_megaman": {
+            "file": "sprites/gato_megaman.png",
+            "scale": 1.2,
+            "category": "player"
+        },
+        "gato_luigi": {
+            "file": "sprites/gato_luigi.png",
+            "scale": 1.2,
+            "category": "player"
+        },
+        "gato_linkzelda": {
+            "file": "sprites/gato_linkzelda.png",
+            "scale": 1.2,
+            "category": "player"
+        },
+        "gato_robin": {
+            "file": "sprites/gato_robin.png",
+            "scale": 1.1,
+            "category": "player"
+        },
+        "gato_poderestudio": {
+            "file": "sprites/gato_poderestudio.png",
+            "scale": 1.3,
+            "category": "player"
+        }
+    },
+    "enemies": {
+        "bug": {
+            "file": "sprites/bug.png",
+            "scale": 0.8,
+            "category": "enemy_small"
+        },
+        "rata_rapida": {
+            "file": "sprites/rata_rapida.png",
+            "scale": 0.8,
+            "category": "enemy_small"
+        },
+        "perro": {
+            "file": "sprites/perro.png",
+            "scale": 1.0,
+            "category": "enemy_medium"
+        },
+        "bug_boss": {
+            "file": "sprites/bug_boss.png",
+            "scale": 0.9,
+            "category": "enemy_medium"
+        }
+    },
+    "boss": {
+        "boss_normal": {
+            "file": "sprites/boss_inmune.png",
+            "scale": 1.5,
+            "category": "boss"
+        },
+        "boss_enrage": {
+            "file": "sprites/boss_enrage.png",
+            "scale": 1.5,
+            "category": "boss"
+        },
+        "boss_cafe": {
+            "file": "sprites/boss_cafe.png",
+            "scale": 1.5,
+            "category": "boss"
+        },
+        "boss_hacha": {
+            "file": "sprites/boss_hacha.png",
+            "scale": 1.5,
+            "category": "boss"
+        },
+        "boss_doblepistola": {
+            "file": "sprites/boss_doblepistola.png",
+            "scale": 1.5,
+            "category": "boss"
+        },
+        "boss_reylibro": {
+            "file": "sprites/boss_reylibro.png",
+            "scale": 1.5,
+            "category": "boss"
+        },
+        "boss_gameover": {
+            "file": "sprites/boss_gameover.png",
+            "scale": 1.5,
+            "category": "boss"
+        },
+        "boss_espejismo": {
+            "file": "sprites/boss_espejismo.png",
+            "scale": 1.5,
+            "category": "boss"
+        },
+        "boss_win": {
+            "file": "sprites/boss_win.png",
+            "scale": 1.5,
+            "category": "boss"
+        },
+        "boss_debilitado": {
+            "file": "sprites/bos_debilitado.png",
+            "scale": 1.5,
+            "category": "boss"
+        },
+        "boss_joystick": {
+            "file": "sprites/boss_joystick.png",
+            "scale": 1.5,
+            "category": "boss"
+        },
+        "boss_muerto": {
+            "file": "sprites/boss_muerto.png",
+            "scale": 1.5,
+            "category": "boss"
+        }
+    },
+    "projectiles": {
+        "ataque_key": {
+            "file": "sprites/ataque_key.png",
+            "scale": 0.6,
+            "category": "projectile"
+        },
+        "bola_mago": {
+            "file": "sprites/bola_mago.png",
+            "scale": 0.7,
+            "category": "projectile"
+        },
+        "daño_warrior": {
+            "file": "sprites/daño_warrior.png",
+            "scale": 0.8,
+            "category": "projectile"
+        },
+        "libro_boss": {
+            "file": "sprites/libro_boss.png",
+            "scale": 0.6,
+            "category": "projectile"
+        },
+        "boss_hacha_proj": {
+            "file": "sprites/boss_hacha.png",
+            "scale": 0.5,
+            "category": "projectile"
+        }
+    },
+    "effects": {
+        "efecto_explosion": {
+            "file": "sprites/efecto_explosion.png",
+            "scale": 0.8,
+            "category": "effect"
+        },
+        "explosion": {
+            "file": "sprites/explosion.png",
+            "scale": 1.0,
+            "category": "effect"
+        },
+        "efecto_rosa": {
+            "file": "sprites/efecto_rosa.png",
+            "scale": 0.8,
+            "category": "effect"
+        },
+        "error_boss": {
+            "file": "sprites/error_boss.png",
+            "scale": 0.6,
+            "category": "effect"
+        }
+    },
+    "items": {
+        "churu": {
+            "file": "sprites/libro_boss.png",
+            "scale": 0.5,
+            "category": "item"
+        },
+        "perro_buff": {
+            "file": "sprites/perro.png",
+            "scale": 0.4,
+            "category": "item"
+        }
+    },
+    "ui": {
+        "final_feliz": {
+            "file": "sprites/final_feliz.png",
+            "scale": "fullscreen",
+            "category": "ui"
+        },
+        "final_feliz2": {
+            "file": "sprites/final_feliz2.png",
+            "scale": "fullscreen",
+            "category": "ui"
+        }
+    }
+}

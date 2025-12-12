@@ -1,0 +1,25 @@
+================================================================================
+CRÉDITOS FINALES - GATO QUEST
+================================================================================
+
+TEXTO EXACTO MOSTRADO EN PANTALLA DE VICTORIA:
+
+"Videojuego hecho con fines académicos
+por Paz Molina — Duoc UC
+Ingeniería en Informática — 2025"
+
+ESPECIFICACIONES DE VISUALIZACIÓN:
+- Timing: Aparece 0.5s tras fade-in de final_feliz
+- Duración: Permanece 4.0s en pantalla
+- Fade-out: 1.0s de desvanecimiento
+- Posición: Centrado en la parte inferior de la pantalla
+- Fuente: Monospace, tamaño 20
+- Color: Blanco (255, 255, 255)
+
+IMPLEMENTACIÓN TÉCNICA:
+- Archivo: game.js, escena "win"
+- Líneas: ~535-570
+- Sistema: Opacity animation (0 → 1 → 0)
+
+CONFIRMACIÓN: ✓ Implementado correctamente
+FECHA: 2025-12-11
